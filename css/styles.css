@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+.header-container nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 136px;
+  padding: 0 250px;
+}
+.content {
+  display: flex;
+  font-family: "Inter", "sans-serif";
+}
+.menu {
+  display: flex;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-right: 40px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3f3837;
+  white-space: nowrap;
+}
+.menu li:hover {
+  cursor: pointer;
+}
+.with-svg object {
+  margin-left: 5px;
+}
+.with-svg {
+  display: flex;
+  align-items: center;
+}
+button {
+  padding: 21px 35px 22px 35px;
+  color: #ffffff;
+  border: none;
+  background-color: #6b77e5;
+  font-family: "Inter", "sans-serif";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+}
+.process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.process-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 41px;
+}
+.process-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box {
+  width: 386px;
+  height: 383px;
+  padding: 58px 43px 58px 43px;
+  gap: 10px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box-2 {
+  margin: 0 31px;
+}
+.process-title span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.process-items h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.box-title span {
+  font-family: "Inter", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7d7d7d;
+}
+.testimonials {
+  font-family: "Inter", "sans-serif";
+  font-size: 18px;
+  font-weight: 600 !important;
+  line-height: 18px !important;
+  margin-top: 37px;
+  text-align: center;
+  color: #6b77e5 !important;
+}
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../assets/images/Mask\ group.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 557px;
+  margin-bottom: 130px;
+}
+.video-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.video-title span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.video-title p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  width: 511px;
+  margin-top: 21px;
+  margin-bottom: 47px;
+}
+.experts-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.experts-title span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.experts-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.expert-items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.profile {
+  position: relative;
+}
+.profile-2 {
+  margin: 0 31px;
+}
+.experts-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+  height: 114px;
+  width: 341px;
+  background-color: #ffffff;
+}
+.experts-content p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.experts-title {
+  margin-bottom: 41px;
+}
